@@ -1,0 +1,140 @@
+
+State Machine - |project|bullet:bullet4|current_state
+Name current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.READY current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 
+current_state.READY 0 0 0 0 1 1 
+current_state.UP 0 0 0 1 0 1 
+current_state.DOWN 0 0 1 0 0 1 
+current_state.LEFT 0 1 0 0 0 1 
+current_state.RIGHT 1 0 0 0 0 1 
+
+State Machine - |project|bullet:bullet3|current_state
+Name current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.READY current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 
+current_state.READY 0 0 0 0 1 1 
+current_state.UP 0 0 0 1 0 1 
+current_state.DOWN 0 0 1 0 0 1 
+current_state.LEFT 0 1 0 0 0 1 
+current_state.RIGHT 1 0 0 0 0 1 
+
+State Machine - |project|bullet:bullet2|current_state
+Name current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.READY current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 
+current_state.READY 0 0 0 0 1 1 
+current_state.UP 0 0 0 1 0 1 
+current_state.DOWN 0 0 1 0 0 1 
+current_state.LEFT 0 1 0 0 0 1 
+current_state.RIGHT 1 0 0 0 0 1 
+
+State Machine - |project|bullet:bullet1|current_state
+Name current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.READY current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 
+current_state.READY 0 0 0 0 1 1 
+current_state.UP 0 0 0 1 0 1 
+current_state.DOWN 0 0 1 0 0 1 
+current_state.LEFT 0 1 0 0 0 1 
+current_state.RIGHT 1 0 0 0 0 1 
+
+State Machine - |project|tank:tank4|current_state
+Name current_state.INITIAL current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.STATIC current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 0 
+current_state.STATIC 0 0 0 0 0 1 1 
+current_state.UP 0 0 0 0 1 0 1 
+current_state.DOWN 0 0 0 1 0 0 1 
+current_state.LEFT 0 0 1 0 0 0 1 
+current_state.RIGHT 0 1 0 0 0 0 1 
+current_state.INITIAL 1 0 0 0 0 0 1 
+
+State Machine - |project|tank:tank3|current_state
+Name current_state.INITIAL current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.STATIC current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 0 
+current_state.STATIC 0 0 0 0 0 1 1 
+current_state.UP 0 0 0 0 1 0 1 
+current_state.DOWN 0 0 0 1 0 0 1 
+current_state.LEFT 0 0 1 0 0 0 1 
+current_state.RIGHT 0 1 0 0 0 0 1 
+current_state.INITIAL 1 0 0 0 0 0 1 
+
+State Machine - |project|tank:tank2|current_state
+Name current_state.INITIAL current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.STATIC current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 0 
+current_state.STATIC 0 0 0 0 0 1 1 
+current_state.UP 0 0 0 0 1 0 1 
+current_state.DOWN 0 0 0 1 0 0 1 
+current_state.LEFT 0 0 1 0 0 0 1 
+current_state.RIGHT 0 1 0 0 0 0 1 
+current_state.INITIAL 1 0 0 0 0 0 1 
+
+State Machine - |project|tank:tank1|current_state
+Name current_state.INITIAL current_state.RIGHT current_state.LEFT current_state.DOWN current_state.UP current_state.STATIC current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 0 
+current_state.STATIC 0 0 0 0 0 1 1 
+current_state.UP 0 0 0 0 1 0 1 
+current_state.DOWN 0 0 0 1 0 0 1 
+current_state.LEFT 0 0 1 0 0 0 1 
+current_state.RIGHT 0 1 0 0 0 0 1 
+current_state.INITIAL 1 0 0 0 0 0 1 
+
+State Machine - |project|draw:comb_12|current_state
+Name current_state.BOUND current_state.WALL_ERASE current_state.WALL_CHECK current_state.T4_SCORE_ERASE current_state.T4_SCORE_DRAW current_state.T3_SCORE_ERASE current_state.T3_SCORE_DRAW current_state.T2_SCORE_ERASE current_state.T2_SCORE_DRAW current_state.T1_SCORE_ERASE current_state.T1_SCORE_DRAW current_state.BU4_DRAW current_state.BU4_ERASE current_state.BU3_DRAW current_state.BU3_ERASE current_state.BU2_DRAW current_state.BU2_ERASE current_state.BU1_DRAW current_state.BU1_ERASE current_state.TANK4_DRAW current_state.TANK4_ERASE current_state.TANK3_DRAW current_state.TANK3_ERASE current_state.TANK2_DRAW current_state.TANK2_ERASE current_state.TANK1_DRAW current_state.TANK1_ERASE current_state.MAP current_state.MENU_DRAW current_state.MENU_ERASE current_state.MENU_WAIT current_state.ERASE 
+current_state.ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.MENU_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.MENU_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.MENU_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.MAP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.TANK1_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.TANK1_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.TANK2_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.TANK2_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.TANK3_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.TANK3_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.TANK4_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.TANK4_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU1_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU1_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU2_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU2_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU3_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU3_DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU4_ERASE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BU4_DRAW 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T1_SCORE_DRAW 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T1_SCORE_ERASE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T2_SCORE_DRAW 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T2_SCORE_ERASE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T3_SCORE_DRAW 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T3_SCORE_ERASE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T4_SCORE_DRAW 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.T4_SCORE_ERASE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.WALL_CHECK 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.WALL_ERASE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.BOUND 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |project|control:comb_11|current_state
+Name current_state.SETMAP current_state.B4_READY current_state.B4_DESTROY current_state.B4_CHECK current_state.B4_WAIT current_state.B3_READY current_state.B3_DESTROY current_state.B3_CHECK current_state.B3_WAIT current_state.B2_READY current_state.B2_DESTROY current_state.B2_CHECK current_state.B2_WAIT current_state.B1_READY current_state.B1_DESTROY current_state.B1_CHECK current_state.B1_WAIT current_state.T4_CHECK current_state.T4_WAIT current_state.T3_CHECK current_state.T3_WAIT current_state.T2_CHECK current_state.T2_WAIT current_state.T1_CHECK current_state.T1_WAIT current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.T1_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.T1_CHECK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.T2_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.T2_CHECK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.T3_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.T3_CHECK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.T4_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.T4_CHECK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.B1_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.B1_CHECK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.B1_DESTROY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B1_READY 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B2_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B2_CHECK 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B2_DESTROY 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B2_READY 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B3_WAIT 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B3_CHECK 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B3_DESTROY 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B3_READY 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B4_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B4_CHECK 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B4_DESTROY 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.B4_READY 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.SETMAP 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

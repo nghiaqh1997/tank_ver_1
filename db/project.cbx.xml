@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_35m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t6|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t3|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t7|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_krf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_35m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t4|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t8|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|ram256x1:comb_3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_e0g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t1|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t5|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t9|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|control:comb_11|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|draw:comb_12|menu:comb_6|Pixel_On_Text2:t2|Font_Rom:FontRom|altsyncram:ROM_rtl_0" CBX_FILE_NAME="altsyncram_1271.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

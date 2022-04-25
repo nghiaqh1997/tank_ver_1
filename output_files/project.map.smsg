@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at bullet.v(6): object "ready" differs only in case from object "READY" in the same scope
+Info (10281): Verilog HDL Declaration information at draw.v(45): object "erase" differs only in case from object "ERASE" in the same scope
+Info (10281): Verilog HDL Declaration information at draw.v(47): object "bound" differs only in case from object "BOUND" in the same scope
+Info (10281): Verilog HDL Declaration information at control.v(33): object "bx" differs only in case from object "BX" in the same scope
+Info (10281): Verilog HDL Declaration information at control.v(33): object "tx" differs only in case from object "TX" in the same scope
+Info (10281): Verilog HDL Declaration information at control.v(33): object "by" differs only in case from object "BY" in the same scope
+Info (10281): Verilog HDL Declaration information at control.v(33): object "ty" differs only in case from object "TY" in the same scope
